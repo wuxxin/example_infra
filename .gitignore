@@ -1,0 +1,35 @@
+
+# python virtualenv symlink
+state/venv
+
+# directory for temporary files
+state/tmp
+
+# saltstack state files
+state/salt
+
+# mkdocs generated documentation files
+state/site
+
+# pulumi state for stacks "*sim"
+state/pulumi/.pulumi/backups/*sim
+state/pulumi/.pulumi/history/*sim
+state/pulumi/.pulumi/locks/*sim
+state/pulumi/.pulumi/stacks/*sim.json*
+
+# pulumi config for stacks "*sim"
+Pulumi.*sim.yaml
+
+# exported infrastructure states files for stacks "*sim"
+state/files/*sim
+
+# interactive python checkpoints
+.ipynb_checkpoints
+
+# compiled python
+*.pyc
+__pycache__
+
+# .vscode artefacts
+.vscode
+

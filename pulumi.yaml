@@ -1,0 +1,7 @@
+name: example_infra
+runtime:
+  name: python
+  options:
+    virtualenv: ./state/venv
+description: example_infra pulumi infrastructure
+

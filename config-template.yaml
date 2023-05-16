@@ -1,0 +1,10 @@
+config:
+  libvirt:uri: qemu:///system
+  example_infra:locale:
+    lang_short: de_DE
+    lang: de_DE.UTF-8
+    keymap: de
+    timezone: Europe/Vienna
+    country_code: AT
+    city: Vienna
+
